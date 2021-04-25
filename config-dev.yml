@@ -1,17 +1,2 @@
-server:
-  port: 3355
-spring:
-  application:
-    name: config-client5
-  cloud:
-    #config客户端配置
-    config:
-      label: master
-      name: config
-      profile: dev
-      uri: http://localhost:3344
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka
+console: 
+  info: this is test verstion
